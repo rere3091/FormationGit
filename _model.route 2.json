@@ -2,7 +2,7 @@
 	"<!--#4DTEXT infoModel_o.dataClassMinusc -->Detail": {
 		"parents": [
 			"parentsDetailDossier",
-			"Je suis ton pere"
+			"Je suis ton pere Rémy"
 		],
 		"route": {
 			"path": "/langue/urlDataClass/detail/urlEntityPK.html",
