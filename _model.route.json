@@ -1,0 +1,74 @@
+{
+	"<!--#4DTEXT infoModel_o.dataClassMinusc -->Detail": {
+		"parents": [
+			"parentsDetailDossier"
+		],
+		"route": {
+			"path": "/langue/urlDataClass/detail/urlEntityPK.html",
+			"format": {
+				"urlDataClass": "<!--#4DTEXT infoModel_o.dataClass -->",
+				"urlEntityPK": ".*"
+			},
+			"force": {
+				"urlDataClass": "<!--#4DTEXT infoModel_o.dataClass -->"
+			}
+		},
+		"fichier": [
+			"<!--#4DTEXT infoModel_o.dataClassMinusc -->/detail.html"
+		],
+		"methode": [
+			"wpTm<!--#4DTEXT infoModel_o.dataClass -->Detail"
+		],
+		"titre": "Détail du <!--#4DTEXT infoModel_o.dataClassLib -->",
+		"navBar": [
+			{
+				"lib": "Détail"
+			}
+		]
+	},
+	
+	"<!--#4DTEXT infoModel_o.dataClassMinusc -->Liste": {
+		"parents": [
+			"parentsListeGenerique"
+		],
+		"route": {
+			"path": "/langue/<!--#4DTEXT infoModel_o.dataClassMinusc -->/liste.html",
+			"format": {
+				"urlDataClass": "<!--#4DTEXT infoModel_o.dataClass -->"
+			},
+			"force": {
+				"urlDataClass": "<!--#4DTEXT infoModel_o.dataClass -->"
+			}
+		},
+		"titre": "",
+		"fichier": [
+			"<!--#4DTEXT infoModel_o.dataClassMinusc -->/liste.html"
+		],
+		"methode": [
+			"wpTm<!--#4DTEXT infoModel_o.dataClass -->Liste"
+		],
+		"navBar": [
+			{
+				"lib": "Les <!--#4DTEXT infoModel_o.dataClassLib -->s"
+			}
+		]
+	},
+
+	"<!--#4DTEXT infoModel_o.dataClassMinusc -->ListeAjax": {
+		"parents": [
+			"parentsAjax"
+		],
+		"route": {
+			"path": "/langue/<!--#4DTEXT infoModel_o.dataClassMinusc -->/liste/ajax.json",
+			"format": {
+				"urlDataClass": "<!--#4DTEXT infoModel_o.dataClass -->"
+			},
+			"force": {
+				"urlDataClass": "<!--#4DTEXT infoModel_o.dataClass -->"
+			}
+		},
+		"methode": [
+			"wpTm<!--#4DTEXT infoModel_o.dataClass -->ListeAjax"
+		]
+	}
+}
